@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "R001",
+    "names": "Unison",
+    "question": "Structured/content-addressed definitions, abilities, names versus identities; investigate shared-state/version compatibility separately.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R002",
+    "names": "Enso; JetBrains MPS; Hazel",
+    "question": "Mixed structural/textual editing, projections, incomplete programs, typed holes, and author-defined views.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R003",
+    "names": "GumTree; React Fast Refresh",
+    "question": "Structural change recognition and state-preserving editing; examine identity assumptions rather than copying positional state rules.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R004",
+    "names": "Gilad Bracha — pluggable types; Turnstile",
+    "question": "Optional analyses and extensible type systems; identify what may affect runtime meaning.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R005",
+    "names": "TypeScript; gradual typing",
+    "question": "User's practical reference for incremental investment in checking. Distinguish TypeScript behavior from formal gradual-typing guarantees.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R006",
+    "names": "Lean 4; LCF; de Bruijn criterion; proof-carrying code",
+    "question": "Untrusted search, extensible elaboration, small checking kernels, and explicit trust dependencies.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R007",
+    "names": "F* (Tot, Dv); Idris 2; Granule",
+    "question": "Termination/effect distinctions, quantitative information, erasure, and resource modalities.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R008",
+    "names": "OCaml 5; Dolan–Sivaramakrishnan–Madhavapeddy LDRF",
+    "question": "Local reasoning under races; re-check comparisons with C/C++ and Java memory semantics.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R009",
+    "names": "OCaml algebraic effects; Eio",
+    "question": "Library scheduling, continuations, one-shot fibers, and the boundary between concurrency and parallel execution.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R010",
+    "names": "Koka; Perceus; Effekt; Unison abilities",
+    "question": "Effects, capabilities, handler implementations, and memory-management opportunities; compare actual semantics.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R011",
+    "names": "OxCaml; Jane Street modes",
+    "question": "Locality, uniqueness, portability, contention, and representation as potentially separate axes.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R012",
+    "names": "Plotkin and Power; algebraic effect equations",
+    "question": "Which equations license reordering, duplication, or elimination under each observation model?",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R013",
+    "names": "Rust; LLVM noalias; RefCell",
+    "question": "Ownership, aliasing evidence, dynamic checks, and unsafe assumptions; avoid a proof-only caricature.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R014",
+    "names": "Zig comptime; MultiArrayList; Andrew Kelley; Mike Acton",
+    "question": "Explicit costs, layout, data-oriented design, bounded compile-time execution, and where layout choices become commitments.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R015",
+    "names": "Haskell IO; SPARK/Ada",
+    "question": "Effects and verification examples in Daniel's article; not selected implementation languages.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R016",
+    "names": "Reynolds parametricity; Mitchell representation independence",
+    "question": "Precisely scope observations under which implementations may be exchanged.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R017",
+    "names": "Goguen–Meseguer noninterference; Clarkson–Schneider hyperproperties",
+    "question": "Information-flow obligations versus ordinary contextual equivalence and access checks.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R018",
+    "names": "Parnas information hiding",
+    "question": "Decomposition around likely changes; examine the connection to retained flexibility without claiming identity of theories.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R019",
+    "names": "Dijkstra structured programming; Turing tarpit",
+    "question": "User's preference for the least expressive useful model within a universal extensible system.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R020",
+    "names": "Terra; DeVito",
+    "question": "Types/code construction and compilation exposed as programmable operations.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R021",
+    "names": "LMS; Rompf and Odersky; MetaOCaml",
+    "question": "Staging, extensible intermediate representations, and binding times.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R022",
+    "names": "Futamura projections; Amin and Rompf — collapsing towers",
+    "question": "Relating interpretation, specialization, and compiler construction under actual cost/semantic assumptions.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R023",
+    "names": "Truffle; Graal; PyPy",
+    "question": "Interpreter specialization, assumptions, deoptimization, and which controls can be exposed to application authors.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R024",
+    "names": "Julia AbstractInterpreter; GPUCompiler.jl",
+    "question": "Extensible analysis and alternative compilation targets within a language ecosystem.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R025",
+    "names": "MLIR; Mojo",
+    "question": "Dialects, staged compilation, lowering composition, and missing shared semantic obligations.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R026",
+    "names": "Halide; Exo; TACO",
+    "question": "Algorithm/schedule/layout separation and controlled transformations; candidate patterns for gradual commitment.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R027",
+    "names": "Polyhedral compilation; Feautrier; Pluto",
+    "question": "Dependence reasoning and affine schedules; separate legality from search and cost models.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R028",
+    "names": "Tiramisu; Tensor Comprehensions; MLIR affine",
+    "question": "Boundaries of static-control approaches, especially irregular shapes and accesses.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R029",
+    "names": "Equality saturation; egg; egglog; Cranelift aegraphs",
+    "question": "Representing alternatives and conditional equalities; saturation budgets, extraction, effects, and invalidation.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R030",
+    "names": "Denali; STOKE; Souper",
+    "question": "Superoptimization, synthesis, and validation in bounded domains; verify original scale claims.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R031",
+    "names": "Alive2; CompCert",
+    "question": "Translation validation versus verified compiler construction; neither is simply a runtime fallback.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R032",
+    "names": "Flückiger et al. — speculative optimization/deoptimization",
+    "question": "Partial state translation and semantic continuation at designated points.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R033",
+    "names": "V8 Ignition; Sparkplug; Maglev; TurboFan; Turboshaft",
+    "question": "Compilation tiers and feedback; names are a snapshot of the discussion, not a current architecture survey.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R034",
+    "names": "V8 Liftoff; Wasm speculative optimizations; Wasm GC",
+    "question": "Test the mistaken assumption that static typing eliminates all useful runtime feedback.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R035",
+    "names": "JavaScriptCore LLInt; Baseline; DFG; FTL; B3; SpiderMonkey Warp",
+    "question": "Other tiered-engine strategies and reconstruction obligations.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R036",
+    "names": "JAX; jaxpr; grad; vmap; shard_map; jit; XLA; Pallas",
+    "question": "Program transformations, shapes, effects, placement, and author control over kernels.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R037",
+    "names": "CUDA; CUTLASS; CuTe/CuTeDSL; Triton; TileIR/cuTile",
+    "question": "Layout and collective abstractions; distinguish tiles' useful scope from universality.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R038",
+    "names": "FlashAttention",
+    "question": "IO-aware algorithm/representation choices; verify exact variants and assumptions before using performance numbers.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R039",
+    "names": "Alpa; Megatron",
+    "question": "Joint sharding/placement and hierarchical search under cost models.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R040",
+    "names": "Sisal; SaC; Futhark",
+    "question": "Declarative/array compilation compared with tuned low-level implementations under named workloads.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R041",
+    "names": "Soufflé; HyPer; worst-case-optimal joins (Ngo et al.)",
+    "question": "Declarative program/query compilation and algorithmic opportunities beyond local instruction tuning.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R042",
+    "names": "System R — interesting orders",
+    "question": "Keeping beneficial properties across operators; user should not have to insert sorting manually.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R043",
+    "names": "SETL; John Rice — algorithm selection",
+    "question": "Historical automatic representation/algorithm selection; recover original constraints and lessons.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R044",
+    "names": "RelC; Hawkins–Aiken–Fisher–Rinard–Sagiv",
+    "question": "Relational specification and representation selection; bibliographic details require checking.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R045",
+    "names": "Cozy; Loncaric–Torlak–Ernst",
+    "question": "Synthesizing collection implementations from declarative operations and invariants.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R046",
+    "names": "Data Calculator; Idreos — periodic table of data structures",
+    "question": "Enumerating implementation design choices and pricing them against workload/hardware models.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R047",
+    "names": "Database cracking; Chameleon collections",
+    "question": "Incremental indexing and adaptive representation changes with migration costs.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R048",
+    "names": "Learned indexes; Kraska et al.",
+    "question": "Models for key-position prediction with correctness/recovery structures; a data structure is not literally a posterior.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R049",
+    "names": "Binary search; interpolation search",
+    "question": "Search procedures and distribution-sensitive costs; binary search does not require a uniform prior.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R050",
+    "names": "Bloom filters; learned Bloom filters; backup filters",
+    "question": "Approximate membership with explicit false-positive behavior and exact verification where required.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R051",
+    "names": "Skip lists; universal hashing",
+    "question": "Randomized structure versus workload uncertainty; these are distinct sources of probability.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R052",
+    "names": "Splay trees; Sleator and Tarjan; dynamic optimality",
+    "question": "Adaptive access costs and precise competitive claims; do not claim the conjecture is settled.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R053",
+    "names": "Introsort",
+    "question": "Optimistic algorithm plus bounded fallback as a useful design pattern.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R054",
+    "names": "Learning-augmented algorithms; Mitzenmacher and Vassilvitskii",
+    "question": "Prediction quality, robustness, adversarial sequences, and switching overhead.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R055",
+    "names": "RaML; Hoffmann expected-cost analysis",
+    "question": "Resource bounds and probabilistic cost evidence under explicit program models.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R056",
+    "names": "Gen; Hakaru; Monniaux probabilistic abstract interpretation",
+    "question": "Programmable inference and analysis; separate semantic randomness, epistemic uncertainty, and physical noise.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R057",
+    "names": "Bao; contextual bandits",
+    "question": "Exploration among query plans; interventions and changing workload distributions.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R058",
+    "names": "TAGE; perceptron branch prediction; inline caches",
+    "question": "Fast local estimators with limited state and observations.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R059",
+    "names": "AutoFDO; warehouse-scale profiling; Android profiles; BOLT",
+    "question": "Reusing profiling work across installations and time; applicability and privacy are separate questions.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R060",
+    "names": "rustc red–green queries; Salsa; Adapton",
+    "question": "Demand-driven/incremental derived artifacts and invalidation; activation still has effects.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R061",
+    "names": "Value of information; active learning; off-policy evaluation",
+    "question": "Spend instrumentation/search only where it can change a worthwhile decision; record the collection policy.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R062",
+    "names": "Joseph Hellerstein; Diao; Parekh; Tilbury — Feedback Control of Computing Systems",
+    "question": "Controllers, stability, time constants, hysteresis, and interference; distinct from Joseph M. Hellerstein's database work.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R063",
+    "names": "Borg Autopilot",
+    "question": "Operational control as a reference to investigate, not proof of a universal controller architecture.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R064",
+    "names": "Erlang/OTP; actors; supervision; code_change",
+    "question": "Explicit state-machine transitions, failure handling, and live evolution.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R065",
+    "names": "Sequoia",
+    "question": "Hierarchical locality as a programming/design object.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R066",
+    "names": "Legion; Regent; Terra; Legate",
+    "question": "Logical regions, privileges, task dependencies, mapping, and physical instances.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R067",
+    "names": "Chapel locales; PGAS",
+    "question": "Placement models to examine; not a prescribed universal address space.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R068",
+    "names": "Galois; Pingali",
+    "question": "Speculative parallelism of irregular work and conflict semantics.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R069",
+    "names": "Kahn process networks; Parks; Geilen–Basten; Ptolemy",
+    "question": "Determinacy versus bounded buffers, progress, deadlock, and scheduling.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R070",
+    "names": "CALM; Bloom; Hydro; LVars",
+    "question": "Information orders, coordination conditions, monotone structures, and distributed compilation.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R071",
+    "names": "Naiad; Timely Dataflow; differential dataflow",
+    "question": "Logical time, retained emission capabilities, progress, and incremental computation.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R072",
+    "names": "DBSP; Materialize; Feldera",
+    "question": "Incremental view maintenance; verify supported language/operator scope and costs.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R073",
+    "names": "Signals; TC39 proposal-signals; ThingLab; bruh",
+    "question": "Reactive dependencies, glitches, history, and asynchronous consistency boundaries.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R074",
+    "names": "Convex; Zero/Rocicorp",
+    "question": "Application/database synchronization examples in the article, not commitments to a service dependency.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R075",
+    "names": "Sanity visual editing; lenses; view-update problem",
+    "question": "Propagating proposed edits through derivations; partial and relational cases matter.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R076",
+    "names": "Martin Kleppmann — Turning the database inside out",
+    "question": "Separate durable history, authority, synchronization, and derived services.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R077",
+    "names": "Pijul; patches; commit DAG; MVCC; WAL",
+    "question": "Operation/history representation versus transaction semantics; deterministic resolution is not automatic commutativity.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R078",
+    "names": "CRDTs; Paxos; Raft",
+    "question": "Merge semantics, consensus, invariants, and failure models.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R079",
+    "names": "Invariant confluence; Bailis; escrow; O'Neil",
+    "question": "Joint reasoning about operations, invariants, merge, and locally allocated budgets.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R080",
+    "names": "Lamport clocks; Jepsen consistency models",
+    "question": "Distinguish causal, serializable, strict-serializable, and application-specific guarantees.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R081",
+    "names": "Nix; NixOS; Fuchsia; executable databases",
+    "question": "Reproducible derived systems and alternatives to conventional packaging/OS boundaries.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R082",
+    "names": "Hydra; Mach; exokernels; Mirage",
+    "question": "Mechanism/policy separation and library operating systems.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R083",
+    "names": "Barrelfish; System Knowledge Base",
+    "question": "Machine topology and runtime constraint/model queries.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R084",
+    "names": "Singularity; Theseus",
+    "question": "Language-level isolation and its trust/enforcement boundaries.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R085",
+    "names": "Cloudflare Workers; Deno Deploy",
+    "question": "Engine/isolate as deployment unit; historical comparison, not a claim that all OS functions disappear.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R086",
+    "names": "io_uring; libdispatch",
+    "question": "Event/queue scheduling interfaces that motivated reconsidering boundaries.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R087",
+    "names": "Baker incremental copying GC; RCU; epochs; hazard pointers",
+    "question": "Concurrent transition, publication, and reclamation patterns.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R088",
+    "names": "Clark et al. — VM live migration; dirty-page tracking",
+    "question": "State transfer under concurrent mutation and bounded transition resources.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R089",
+    "names": "gh-ost; pt-online-schema-change",
+    "question": "Online schema/index migration, captured divergence, and publication.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R090",
+    "names": "Jvolve; Kitsune; Magill et al. dynamic-update correctness",
+    "question": "State transformers, update points, and application-specific correctness beyond type safety.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R091",
+    "names": "Kubernetes rolling deployment; DNS cutover; expand/contract",
+    "question": "Coexistence and session consistency; not universally atomic publication.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R092",
+    "names": "EDOS; Di Cosmo; Russ Cox Version SAT",
+    "question": "Dependency constraints and resolution models; avoid claiming every restricted resolver is equally hard.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R093",
+    "names": "Elm version analysis; cargo-semver-checks; Crater",
+    "question": "Compatibility claims versus reverse-dependency evidence.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R094",
+    "names": "Avro; Protocol Buffers",
+    "question": "Schema/wire compatibility, mixed versions, and ongoing obligations.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R095",
+    "names": "Transmeta; NVIDIA Denver; Rosetta 2; Dynamo",
+    "question": "Binary translation and optimization; qualify performance and historical causal claims.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R096",
+    "names": "Sail; Retypd; LangSec; uops.info; litmus tests",
+    "question": "Semantics/lifting, type inference, language boundaries, and empirical hardware characterization.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R097",
+    "names": "Bansal and Aiken — binary translation using peephole superoptimizers",
+    "question": "Separate candidate generation, differential tests, and equivalence checking.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R098",
+    "names": "Landauer; Bennett; reversible/adiabatic computing",
+    "question": "Physical erasure bounds, assumptions, and finite-time costs; no direct price per compiler deletion.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R099",
+    "names": "Horowitz energy table; Hameed H.264 specialization study",
+    "question": "Historical measurements for intuition; preserve process/workload context before comparing modern systems.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R100",
+    "names": "Rent's rule; Little's law; Dennard scaling; Esmaeilzadeh dark silicon",
+    "question": "Empirical geometry, concurrency, power, and resource constraints; laws have different status and scope.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R101",
+    "names": "Hong–Kung red–blue pebble game; Ballard–Demmel–Holtz–Schwartz",
+    "question": "Communication lower bounds for specified computational models.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R102",
+    "names": "OoO execution; renaming; microcode; µop caches; x86 TSO",
+    "question": "Distinguish instruction semantics, scheduling, speculation, and microcode.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R103",
+    "names": "VLIW; Itanium; Cell SPEs",
+    "question": "Static/dynamic scheduling tradeoffs; reject one-cause historical explanations.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R104",
+    "names": "CPU caches; coherence; GPU SIMT; SIMD; warp scheduling",
+    "question": "Selectable movement/control mechanisms, with workload-specific costs.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R105",
+    "names": "TPU; Groq TSP; Cerebras",
+    "question": "Spatial/static specialization and on-chip memory; original sweeping cache/schedule claims need verification.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R106",
+    "names": "NVL72; NVLink; TPU ICI; TPU v4 optical circuit switching",
+    "question": "Deployment topology as a variable; numeric specs are historical discussion claims.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R107",
+    "names": "HBM; LPDDR; TSVs; SRAM chiplets; monolithic 3D",
+    "question": "Storage geometry, packaging, capacity, thermal limits, and cost.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R108",
+    "names": "Mill; Ivan Godard",
+    "question": "Possible source of Daniel's remembered instruction-firehose talk; identification remains unresolved.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R109",
+    "names": "Samsung HBM-PIM; UPMEM; processing-in-memory",
+    "question": "Moving computation toward data; compare supported operators and system overhead.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R110",
+    "names": "Intel TSX; hardware transactional memory",
+    "question": "Versioning/speculation machinery; investigate why specific deployments succeed or fail.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R111",
+    "names": "RISC-V; CHERI; Morello; Ara; ESP; OpenPiton",
+    "question": "Fable's earlier commodity-based prototype proposal. Daniel rejected this as the conceptual endpoint; tools may remain candidate backends.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R112",
+    "names": "UCIe; Bunch-of-Wires; Tenstorrent Ethernet",
+    "question": "Chiplet/fabric interfaces; shared contracts need not imply identical physical packet formats.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R113",
+    "names": "Martin CHP/QDI; Sutherland micropipelines; Fulcrum; Achronix; GALS",
+    "question": "Asynchronous and mixed timing disciplines; state timing/isochronic assumptions explicitly.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R114",
+    "names": "Dennis dataflow; Arvind tagged tokens; Monsoon",
+    "question": "Dataflow execution and token-matching costs.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R115",
+    "names": "TRIPS/EDGE; CGRA; Plasticine; Spatial; SambaNova",
+    "question": "Spatial control/dataflow and selectable binding time.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R116",
+    "names": "Bluespec; Aetherling; Filament; Dahlia; Calyx",
+    "question": "Rules, space/time/resource types, and hardware-oriented intermediate languages.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R117",
+    "names": "Chisel; Rocket; Berkeley agile hardware",
+    "question": "Hardware generators as a family design method; not a mandated implementation toolchain.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R118",
+    "names": "Razor timing speculation; per-region DVFS",
+    "question": "Detection/recovery and physical coupling of voltage/timing domains.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R119",
+    "names": "RSFQ; AQFP; superconducting/cryo",
+    "question": "Future/alternative substrate leads; include cooling and conversion cost.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R120",
+    "names": "Photonic meshes; Lightmatter; memristor crossbars",
+    "question": "Analog operators, calibration, interfaces, and numerical/fault models.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R121",
+    "names": "p-bits; thermodynamic sampling; stochastic computing; spiking/temporal codes",
+    "question": "Alternative information encodings and primitive operations; avoid unsupported brain efficiency comparisons.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R122",
+    "names": "FP8; FP4; MX formats; posits; stochastic rounding",
+    "question": "Numerical semantics and error propagation under specific tasks.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R123",
+    "names": "Joint source–channel coding; constrained stochastic control; POMDP",
+    "question": "Causal policies over source/channel/device state with different endpoint observations.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R124",
+    "names": "Rate–distortion; Shannon source–channel separation",
+    "question": "Precise communication assumptions; no theorem about compiler phase ordering follows automatically.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R125",
+    "names": "ANS",
+    "question": "Compression state and error propagation; framing, checkpoints, and resets are design variables.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R126",
+    "names": "ADC/DAC; sampling; aliasing; quantization; jitter; clipping",
+    "question": "Measurement constraints and irrecoverable distinctions; conversion does not restore lost numerical information.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R127",
+    "names": "Slepian–Wolf; Wyner–Ziv",
+    "question": "Distributed/side-information coding; establish exact knowledge placement before applying to updates.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R128",
+    "names": "Functional compression; conditional graph entropy; Orlitsky–Roche",
+    "question": "Preserve answers to admitted queries rather than reconstruct every source value.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R129",
+    "names": "ECC; FEC; LDPC; NAND read-retry",
+    "question": "Protection, soft information, decoding cost, and channel/state uncertainty.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R130",
+    "names": "Checksums; framing; retransmission; multiplexing",
+    "question": "Detection is useful when it changes recovery/action; separate authenticity from accidental-error detection.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R131",
+    "names": "EnerJ; Rely; Flikker",
+    "question": "Approximation/reliability annotations and memory refresh tradeoffs.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R132",
+    "names": "Triple modular redundancy; N-version programming; Avizienis",
+    "question": "Correlated failures and diverse implementations; independence is an assumption to justify.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R133",
+    "names": "Checkpointing; Daly formula",
+    "question": "Failure/repair/time models and recovery overhead; verify applicability rather than treating one interval formula as universal.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R134",
+    "names": "Quantum threshold theorem; Azure resource estimator",
+    "question": "Fault-budget planning analogy with technology-specific assumptions; not every quantum compiler solves the same problem.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R135",
+    "names": "Silent data corruption; Google/Meta fleet studies",
+    "question": "Investigate original rates, populations, and fault detection methods before reuse.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R136",
+    "names": "Chaney–Molnar metastability; Lamport Buridan principle; FLP",
+    "question": "Distinct limits with distinct models. Do not merge physical arbitration, distributed consensus, and nonmonotonicity into one theorem.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R137",
+    "names": "Shannon switching circuits; von Neumann reliable computation",
+    "question": "Restoration and composition of unreliable physical components.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R138",
+    "names": "Abadi–Burrows–Lampson–Plotkin authorization calculus",
+    "question": "Policy, authenticated evidence, trust, and delegation.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R139",
+    "names": "Lampson access-control matrix; ACLs; capability lists",
+    "question": "Snapshot relation views versus operational authority transfer and invocation.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R140",
+    "names": "Proof-carrying authorization; Pfenning",
+    "question": "Portable evidence checked at enforcement; ordinary capabilities need not contain proofs.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R141",
+    "names": "Capability Myths Demolished; object capabilities",
+    "question": "Resource references coupled to authority, delegation, attenuation, and ambient authority.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R142",
+    "names": "Zanzibar; zookies",
+    "question": "Relationship-based authorization and freshness relative to content/policy changes.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R143",
+    "names": "OpenFGA userset rewrites; JS SDK; Rust community client",
+    "question": "Union/intersection/exclusion/traversal and backend integration; client status should be checked when used.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R144",
+    "names": "SpiceDB schema; caveats; authzed-node",
+    "question": "Conditional results as residual predicates; identify missing context and freshness conditions.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R145",
+    "names": "XACML",
+    "question": "Permit, Deny, NotApplicable, Indeterminate, and explicit combining algorithms; not identical to residual predicates.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R146",
+    "names": "PostgreSQL row-level security (RLS)",
+    "question": "Permissive OR and restrictive AND plus normal privilege/bypass behavior.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R147",
+    "names": "Melange",
+    "question": "Conversation lead for OpenFGA-style policies compiled into PostgreSQL; verify condition support and maintained integrations.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R148",
+    "names": "sepgsql; SELinux",
+    "question": "Cross-layer policy integration; row-level and object-level enforcement are different.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R149",
+    "names": "Landlock; Rust landlock crate",
+    "question": "Composed restrictions enforced by the OS; distinguish attenuation from remote revocation.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R150",
+    "names": "Cedar; cedar-policy; cedar-wasm",
+    "question": "Embedded policy evaluation, attributes, and explicit forbids.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R151",
+    "names": "Casbin; casbin-node-casbin; casbin-rs",
+    "question": "Configurable policy matching and combining models.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R152",
+    "names": "Biscuit; biscuit-auth; biscuit-wasm",
+    "question": "Signed fact/rule-bearing authority with attenuation and verifier policies.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R153",
+    "names": "Andrea Censi — A Mathematical Theory of Co-Design",
+    "question": "Functionality/resources/implementations, Pareto fronts, monotone composition; one method family, not universal tractability.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R154",
+    "names": "MIT program synthesis; Solar-Lezama",
+    "question": "Partial programs, examples, specifications, and candidate construction.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R155",
+    "names": "MBSE; SysML; digital twins",
+    "question": "Compare shared executable couplings with existing engineering practice; blanket claims that all models are mere documentation need evidence.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R156",
+    "names": "Goal Structuring Notation (GSN); assurance cases",
+    "question": "Claims and evidence dependencies; do not mistake evidence management for automatic assurance.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R157",
+    "names": "Conway's law",
+    "question": "Organizational/decomposition relationship as a research lead, not a precise authority theorem.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R158",
+    "names": "Arrow's theorem",
+    "question": "Conflicting objectives and constrained aggregation; preserve the theorem's actual assumptions.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R159",
+    "names": "Goodhart's law",
+    "question": "Inspect the specification/objective as a fallible model of intent, even when realization satisfies it.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  },
+  {
+    "id": "R160",
+    "names": "Option value; lifecycle economics; standardization",
+    "question": "Price retained flexibility, ecosystems, training, tooling, spares, procurement, compatibility, and future changes.",
+    "note": "evidence/references.md",
+    "status": "lead"
+  }
+]

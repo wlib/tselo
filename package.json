@@ -1,0 +1,25 @@
+{
+  "name": "tselo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A research notebook for one extensible realization stack",
+  "type": "module",
+  "scripts": {
+    "check": "node tools/check-vault.ts"
+  },
+  "engines": {
+    "node": ">=22.6"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "github-slugger": "^2.0.0",
+    "mdast-util-to-string": "^4.0.0",
+    "remark-frontmatter": "^5.0.0",
+    "remark-gfm": "^4.0.0",
+    "remark-parse": "^11.0.0",
+    "typescript": "^5.6.0",
+    "unified": "^11.0.5",
+    "unist-util-visit": "^5.0.0",
+    "yaml": "^2.6.0"
+  }
+}
